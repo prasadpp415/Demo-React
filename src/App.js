@@ -14,6 +14,7 @@ function Hi(state) {
 }
 
 class How extends React.Component {
+	// class based
 	constructor(props) {
 		super(props);
 		this.state = { message: 'Hi, How are you', name: 'ABC', user: '' };
