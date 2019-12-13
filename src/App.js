@@ -10,7 +10,7 @@ function Hello(props) {
 }
 
 function Hi(state) {
-	return <h1>Hi, {state.name}</h1>;
+	return <h1>Hi, this is {state.name}</h1>;
 }
 
 class How extends React.Component {
